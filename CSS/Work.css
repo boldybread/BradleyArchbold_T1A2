@@ -1,4 +1,47 @@
-img {
-    width: clamp(100px, 350px, 500px)
-    /*Needs looking at*/
+.black {
+    display: grid;
+    background-color: #000000;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    }
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
 }
+
+h2 {
+    text-align: center;
+    }
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+      }
+      main article {
+        margin: 20px 0px;
+        border: 1px solid #95B8D1;
+        border-radius: 8px;
+        overflow: hidden;
+        text-align: center;
+        background-color: #95B8D1;
+      }
+      main article section .blog-image {
+        width: 400px;
+      }
+
+      .cat {
+        width: 500px;
+      }

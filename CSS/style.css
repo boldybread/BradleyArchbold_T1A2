@@ -15,7 +15,7 @@ h2 {
 }
 
 .black {
-    background-color: black;
+    background-color: #000000;
     color:white;
     padding: 30px;
     font-family:'Courier New', Courier, monospace;
