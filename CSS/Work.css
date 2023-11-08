@@ -28,20 +28,44 @@ h2 {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 14px;
       }
       main article {
         margin: 20px 0px;
         border: 1px solid #95B8D1;
-        border-radius: 8px;
+        border-radius: 10px;
         overflow: hidden;
         text-align: center;
+        text-decoration: none;
         background-color: #95B8D1;
       }
       main article section .blog-image {
-        width: 400px;
+        width: 350px;
+        height: 350px;
       }
 
-      .cat {
-        width: 500px;
-      }
+h4 {
+  font-size: smaller;
+  color: black;
+ }
+  
+h4:hover {
+  color:white;
+ }
+
+#picwrap {
+  /*this is a mess and needs looking at */
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.cat {
+    width: 500px;
+    float: left;
+  }
