@@ -52,20 +52,3 @@ h4 {
 h4:hover {
   color:white;
  }
-
-#picwrap {
-  /*this is a mess and needs looking at */
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-
-
-.cat {
-    width: 500px;
-    float: left;
-  }

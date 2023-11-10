@@ -5,6 +5,7 @@ ul {
     padding: 0;
     top: 0px;
     left: 0px;
+    justify-content: center;
     overflow: hidden;
     background-color: #95B8D1;
     color:white;
@@ -13,14 +14,14 @@ ul {
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
   }
   
