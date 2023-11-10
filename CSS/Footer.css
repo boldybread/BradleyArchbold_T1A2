@@ -1,27 +1,12 @@
-/*#footer {
-    position: fixed;
-    overflow: hidden;
-    background-color: #95B8D1;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    bottom: 0px;
-    height: 30px;
-    padding: 30px;
-    font-size: x-large;
-    margin-left: auto;
-    margin-right: auto;
-}
-*/
-
 #footer {
-
   background-color: #95B8D1;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
-
+  position: fixed; 
+  bottom: 0; 
+  width: 100%;
 }
 
 .social-icon {
