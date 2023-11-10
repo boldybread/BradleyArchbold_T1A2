@@ -17,6 +17,7 @@ h1 {
 .black {
     display: grid;
     background-color: #000000;
+    border-radius: 5%;
     color:white;
     font-family:'Courier New', Courier, monospace;
     }
