@@ -6,13 +6,14 @@
     }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     text-decoration: underline;
 }
 
 h2, p {
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     body {
