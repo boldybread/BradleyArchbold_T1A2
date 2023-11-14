@@ -1,8 +1,12 @@
-.img {
+body {
+    margin: 0;
+}
+
+img {
     display: flex;
-    border: 1px solid #ddd;
+    border: 5px solid #000000;
     border-radius: 4px;
-    padding: 5px;
+    padding: 30px;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -14,10 +18,22 @@ h1 {
     text-decoration: underline;
 }
 
-.black {
-    display: grid;
+p1 {
+    display: flex;
     background-color: #000000;
-    border-radius: 5%;
     color:white;
+    border: 5px solid #95B8D1;
+    padding: 10px;
     font-family:'Courier New', Courier, monospace;
-    }
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    border: 5px solid #95B8D1;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size:x-large;
+}

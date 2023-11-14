@@ -1,4 +1,22 @@
-.black {
+/*Text component 4 intro styling*/
+intro {
+  text-align: center;
+  }
+  
+intro p {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+/*End of text component 4 intro styling*/
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+blog {
     display: grid;
     background-color: #000000;
     color:white;
@@ -7,49 +25,39 @@
 
 h1 {
     font-size: 2rem;
-    text-align: center;
     text-decoration: underline;
+    text-align: center;
 }
 
-h2, p {
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    body {
-        margin: 0;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      
-      main {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 14px;
-      }
-      main article {
-        margin: 20px 0px;
-        border: 1px solid #95B8D1;
-        border-radius: 10px;
-        overflow: hidden;
-        text-align: center;
-        text-decoration: none;
-        background-color: #95B8D1;
-      }
-      main article section .blog-image {
-        width: 350px;
-        height: 350px;
-      }
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+main article {
+  margin: 20px 0px;
+  border: 1px solid #95B8D1;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #95B8D1;
+}
+main article section .blog-image {
+  width: 350px;
+  height: 350px;
+}
 
 h4 {
-  font-size: smaller;
-  color: black;
- }
-  
+font-family: Arial, Helvetica, sans-serif;
+font-style: oblique;
+color: black;
+text-decoration: underline;
+}
+
 h4:hover {
-  color:white;
- }
+color:white;
+}
+
+      

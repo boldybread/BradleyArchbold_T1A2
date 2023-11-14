@@ -27,9 +27,9 @@ input[type=submit]:hover {
   }
 
 /* Style the container/contact section */
-.container {
+contact-form {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #000000;
 }
 
 /* Create two columns that float next to eachother */
@@ -60,9 +60,12 @@ input[type=submit]:hover {
   text-align: center;
   background-color: black;
   color: white;
-  height: 180px;
+  height: 190px;
  }
 
-.newsletter {
-  padding: 15px;
+ /*Graphical component 4 "img" styling*/ 
+img {
+  width: 100%;
+  padding-left: 20px;
 }
+/*End of graphical component 4 "img" styling*/ 

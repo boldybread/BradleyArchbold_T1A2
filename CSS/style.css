@@ -1,13 +1,25 @@
+/*Graphical component 1 styling*/
 img {
     display: block;
     margin: auto;
+    padding: 30px;
+    position: relative;
     border-radius: 50%;
-    box-shadow: 10px 10px 10px gray;
     width: 70%;
     max-width: 350px;
     height: auto;
     max-height: 400px;
    }
+/*End of graphical component 1 styling*/   
+
+/*Text component 2 Section styling*/
+section {
+  background-color: #000000;
+  color:white;
+  padding: 30px;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
 
 h1 {
     font-size: clamp(1.5rem, 2.5vw, 4rem);
@@ -16,27 +28,35 @@ h1 {
 h2 {
     font-size: clamp(1.2rem, 1.5vw, 2.5rem);
 }
+/*End of text component 2 styling*/
 
-.black {
-    background-color: #000000;
-    color:white;
-    padding: 30px;
-    font-family:'Courier New', Courier, monospace;
-    text-align: center;
+/*Typewriter effect styling*/
+typewriter {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: #FFFFFF;
+	letter-spacing: 2px;
   }
 
-.blink {
-  animation: blink 0.5s infinite;
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 18px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
 }
-@keyframes blink{
-  to { opacity: .0; }
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: white; 
+	}
 }
-.flex {
-	display: flex;
-}
-.header-sub-title {
-  color: #white;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: clamp(0.75rem, 1.5vw, 2.5rem);
-  padding: 0.1em;
-  }
+/*End of typewriter effect styling*/

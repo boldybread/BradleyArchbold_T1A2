@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="../CSS/Header.css">
     <link rel="stylesheet" href="../CSS/Footer.css">
 </head>
-<body style="margin: 0;">
-       <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="/Pages/Work.html">Work</a></li>
-        <li><a href="/Pages/About_Me.html">About Me</a></li>
-        <li><a href="/Pages/Contact.html">Contact</a></li>
-      </ul>
-      
-      <h1>Let me turn your <em>vision</em> into <em>reality</em></h1>
+<body>
+    <header>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="/Pages/Work.html">Work</a></li>
+            <li><a href="/Pages/About_Me.html">About Me</a></li>
+            <li><a href="/Pages/Contact.html">Contact</a></li>
+          </ul>
+        </header>
+
+<!--Text component 4 intro, styling in Work.CSS-->
+<intro>      
+<h1>Let me turn your <em>vision</em> into <em>reality</em></h1>
          
       <p><em>"Our vision is only actionable if we share it.
         Without sharing, its just a figment of our imagination."</em>&nbsp; Simon Sinek
@@ -29,10 +33,10 @@
         <br><br>
         Your business is unique, so why settle for a cookie cutter webpage like everyone else. Lets make a site that is as bold as you are. Simple yet elegant designs that will help get your product out into the world.
         Take a look at my tech blog below as an example of my work.</p>
-    </div>
+    </intro>
+<!--End of text component 4 intro, styling in Work.CSS-->
 
-
-        <div class="black">
+    <blog>
             <h1>My Tech Blog</h1>
         <main>
             <article>
@@ -85,20 +89,30 @@
                 </section>
             </article>
         </main>
-    </div>
+</blog>
 
-    </div>
-      <div id="footer">
-        <a class="social-icon" href="https://www.linkedin.com/in/bradley-archbold-b956a1276" target="_blank">
-        <ion-icon name="logo-linkedin"></ion-icon>
-        <a class="social-icon" href="https://github.com/boldybread" target="_blank">
-        <ion-icon name="logo-github"></ion-icon></a>
-        <a class="social-icon" href="https://www.instagram.com/brad_archbold/" target="_blank">
-        <ion-icon name="logo-instagram"></ion-icon></a>
-        <a class="social-icon" href="https://www.facebook.com/brad_archbold/" target="_blank">
-        <ion-icon name="logo-facebook"></ion-icon></a>
-    </div>
-        <br><br><br><br><br><br>
+<br><br>
+<form>
+    <input type="button" value="Back to top" class="top-link" onclick="window.location.href='#top'">
+</form>
+
+<br><br><br><br><br><br>
+
+<footer>
+    <a class="social-icon" href="https://www.linkedin.com/in/bradley-archbold-b956a1276" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <a class="social-icon" href="https://github.com/boldybread" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://www.instagram.com/brad_archbold/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://www.facebook.com/brad_archbold/" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+</footer>
+                    
+
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
 

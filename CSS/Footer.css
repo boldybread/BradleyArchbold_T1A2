@@ -1,4 +1,5 @@
-#footer {
+/*Text component 3 styling*/
+footer {
   background-color: #95B8D1;
   display: flex;
   justify-content: center;
@@ -19,7 +20,18 @@
 .social-icon:hover {
   color:#111;
 }
+/*End of text component 3 styling*/
 
-body {
-  min-height: 100vh;
+.top-link {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #95B8D1;
+  color: white;
+  font-size: large;
+  padding: 15px;
+}
+
+.top-link:hover {
+  background-color:#111;
 }
